@@ -1,0 +1,57 @@
+.formContent {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.likeLabel {
+  text-align: right;
+
+  span {
+    position: relative;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+
+    &::before {
+      display: inline-block;
+      margin-right: 4px;
+      color: #f5222d;
+      font-size: 14px;
+      font-family: SimSun, sans-serif;
+      line-height: 1;
+      content: '*';
+    }
+
+    &::after {
+      content: ':';
+      position: relative;
+      top: -0.5px;
+      margin: 0 8px 0 2px;
+    }
+  }
+}
+
+.column {
+  width: 480px;
+}
+
+.right {
+  float: right;
+}
+
+.mr20 {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-size: 16px;
+  height: 28px;
+}
+
+.inlineBox {
+  display: inline-block;
+}

@@ -1,0 +1,419 @@
+/* global css begin*/
+html {
+  background-color: #fff;
+}
+
+body {
+  background-color: #f0f2f5 !important;
+}
+
+.m-title {
+  padding: 8px 20px;
+  border-bottom: 1px solid #e0e2e2;
+  font-size: 16px;
+}
+
+.m-title a {
+  color: rgba(0, 0, 0, .65);
+}
+
+.m-condition-options{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.m-condition-options-item{
+  margin: 10px 30px 10px 0;
+
+}
+
+.el-tr-gary td {
+  background-color: #ddd !important;
+}
+
+.ant-btn-primary a{
+  color: #fff;
+}
+
+.ant-btn-primary a:hover{
+  color: #fff;
+}
+
+.ant-menu-horizontal {
+  border-bottom: none !important;
+}
+
+::-webkit-scrollbar-button:vertical {
+  display: none;
+}
+
+::-webkit-scrollbar-track:vertical {
+  background: rgba(255, 255, 255, 0.418)
+}
+
+::-webkit-scrollbar-track-piece {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  background-color: rgba(87, 110, 141, 0.24);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+  background-color: #1890ff;
+}
+
+::-webkit-scrollbar-corner:vertical {
+  display: none;
+}
+
+::-webkit-scrollbar-resizer:vertical {
+  display: none;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #FFF;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  background-color: rgba(87, 110, 141, 0.24);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #1890ff;
+}
+
+/* global css end*/
+
+
+
+.m-btn-add .ant-btn-primary {
+  background: #675ca8;
+  border: 1px solid #675ca8;
+}
+
+.m-btn-add {
+  margin-bottom: 20px;
+}
+
+.m-rt-content {
+  padding: 0 20px;
+}
+
+.m-lt {
+  width: 420px;
+  float: left;
+  overflow: hidden;
+}
+
+.m-rt {
+  overflow: hidden;
+}
+
+
+.m-icon-type .anticon {
+  cursor: pointer;
+}
+
+.i-action-ico {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.i-stick {
+  width: 20px;
+  height: 18px;
+  background: url('./assets/images/stick.png') no-repeat center 1px;
+  background-size: 100% 100%;
+}
+
+.i-edit {
+  background: url('./assets/images/icon1.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.i-up {
+  background: url('./assets/images/icon5.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.i-down {
+  background: url('./assets/images/icon3.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.i-delete {
+  background: url('./assets/images/icon2.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.i-link {
+  background: url('./assets/images/link.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.i-play {
+  background: url('./assets/images/play.png') no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  vertical-align: text-bottom;
+}
+
+.i-show {
+  background: url('./assets/images/show.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.i-hide {
+  background: url('./assets/images/hide.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+/*公共间隔距离右边设置*/
+.intervalRight {
+  margin-right: 30px !important;
+}
+
+/*公共间隔底部设置*/
+.intervalBottom {
+  margin-bottom: 20px !important;
+}
+
+/*按钮统一宽度设置*/
+.buttonWidth {
+  width: 120px !important;
+}
+
+/*下拉框统一宽度设置*/
+.selectWidth {
+  width: 130px;
+}
+
+/*搜索框统一宽度设置*/
+.searchWidth {
+  width: 400px !important;
+}
+
+.part {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.part .u-txt {
+  font-size: 14px;
+  vertical-align: middle;
+  height: 32px;
+  line-height: 32px;
+  margin-top: 0 !important;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/*多出部分以省略号显示*/
+
+.td_hide {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 80px;
+}
+
+.el-tr-gary td {
+  background-color: #ddd !important;
+}
+
+.el-tr-red td {
+  background-color: #ff4f4f !important;
+}
+
+
+.m-head {
+  font-size: 16px;
+  border-bottom: 1px solid #e0e2e2;
+  padding: 10px 20px;
+  margin-bottom: 0;
+}
+
+.m-order-bd .m-select:last-child .u-btn {
+  margin-left: 126px;
+}
+
+/* 列表样式 */
+
+.m-order-bd .m-calendar {
+  width: 60%;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+}
+
+.m-order-bd .m-select {
+  width: 30%;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+}
+
+.m-search button {
+  float: right;
+  margin-top: 15px;
+}
+
+.m-order-bd .m-select .ant-select,
+.m-accurate .ant-select {
+  margin-left: 20px;
+}
+
+.m-select {
+  margin-bottom: 20px;
+}
+
+.m-order-bd {
+  padding-bottom: 20px;
+  min-width: 1060px;
+  overflow: hidden;
+}
+
+.m-accurate .u-btn,
+.m-order-bd .u-btn {
+  font-size: 14px !important;
+  width: 130px;
+  height: 30px;
+  color: #fff !important;
+  background: #27c14c !important;
+}
+
+.m-accurate .ant-btn:hover,
+.m-accurate .ant-btn:focus,
+.m-order-bd .ant-btn:hover,
+.m-order-bd .ant-btn:focus {
+  border-color: #23ad43 !important;
+}
+
+.m-order-bd .u-btn:active,
+.m-accurate .u-btn:active {
+  background: #23ad43 !important;
+  border-color: #23ad43 !important;
+  color: #03300d !important;
+}
+
+.u-search {
+  width: 258px !important;
+  height: 28px;
+  border: 1px solid #dde5e7;
+  vertical-align: middle;
+  margin: 0 64px 0 50px !important;
+}
+
+.m-order-bd .m-calendar .ant-calendar-picker {
+  width: 32.2% !important;
+  margin: 0 20px;
+}
+
+
+/* 列表样式 */
+
+.m-detail-bd {
+  margin: 25px 30px 55px 30px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #dde5e7;
+  min-width: 1220px;
+}
+
+.m-detail-bd p {
+  font-size: 16px;
+  color: #1d2b37;
+}
+
+.m-detail-info {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.m-ul-list {
+  padding-left: 34px;
+  overflow: hidden;
+}
+
+.m-ul-list ul li {
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #1d2b37;
+  width: 33%;
+  float: left;
+}
+
+.m-ul-list ul span {
+  display: inline-block;
+  width: 120px;
+}
+
+.m-head a {
+  color: #1d2b37;
+}
+
+
+.book-modal {
+  padding-bottom: 50px;
+}
+
+
+.u-btn-green {
+  font-size: 14px !important;
+  width: 120px;
+  height: 30px;
+  color: #fff !important;
+  background: #27c14c !important;
+  border-color: #27c14c !important;
+}
+
+.u-btn-green:active {
+  background: #23ad43 !important;
+  border-color: #23ad43 !important;
+  color: #073f14 !important;
+}
+
+.u-btn-add {
+  margin-bottom: 0px !important;
+  background: #675ca8 !important;
+  border: 1px solid #675ca8 !important;
+  border-radius: 4px !important;
+  margin-right: 30px;
+}
+
+.u-btn-add:hover {
+  background-color: #7265ba !important;
+  border-color: #7265ba !important;
+}
+
+.u-btn-add:focus {
+  color: #fff !important;
+  background-color: #40a9ff !important;
+  border-color: #40a9ff !important;
+}
+
+.ant-layout.ant-layout-has-sider>.ant-layout,
+.ant-layout.ant-layout-has-sider>.ant-layout-content {
+  overflow: unset !important;
+}
